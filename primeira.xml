@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Receituario>
+    <Paciente>
+        <Nome>José Silva</Nome>
+        <Idade>45</Idade>
+        <Genero>Masculino</Genero>
+    </Paciente>
+    
+    <Medico>
+        <Nome>Dr. Marcus</Nome>
+        <CRM>5445452</CRM>
+    </Medico>
+<Data>2024-10-31</Data>
+</Receituario>
