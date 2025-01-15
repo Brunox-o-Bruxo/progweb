@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #e6d4af;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #333;
+    color: #4fe4d0;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+  /* Links do menu */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    color: #3c4b32; /*ponto de falar sobre sla*/
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+
+  .section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  /* Seção de introdução */
+  .intro {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /* Seção de portfólio */
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do <ul> */
+}
+
+ul li a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #3c4b32; /* Define a cor do link */
+    font-weight: bold;
+    padding: 5px 10px;
+  
+}
+
+  .portfolio-item {
+    background: #535f44;
+    border: 1px solid #472d45;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Formulário de contato */
+  .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #6b4545;
+    border-radius: 5px;
+  }
+
+  .contact form button {
+    background: #884d4d;
+    color: #67704c;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #352727;
+    color: #000000;
+  } 
