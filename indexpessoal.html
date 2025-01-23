@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pesquisa de Opinião Estudantil</title>
+    </head>
+    <body>
+        <form>
+            <label for="nomec">Nome Completo </label><br> <!--Para o nome-->
+            <input type="text" id="nomec" name="nomec"><br>
+            <label for="emaill">Email </label><br> <!-- Para o email -->
+            <input type="email" id="emaill" name="emaill"><br>
+
+            <label for="options">Ano Escolar</label> <!-- Para a caixinha drop -->
+            <select id="options" name="options">
+                <option value="1ano">Primeiro Ano</option>
+                <option value="2ano">Segundo Ano</option>
+                <option value="3ano">Terceiro Ano</option>
+            </select><br>
+
+            <input type="checkbox" id="si" name="si" > <!-- Para os cursos -->
+            <label for="si">Sistemas de Informação</label><br>
+            <input type="checkbox" id="di" name="di" >
+            <label for="di">Direito</label><br>
+            <input type="checkbox" id="med" name="med" >
+            <label for="med">Medicina</label><br>
+
+            <label for="mensagem">Expectativas para o próximo ano letivo:</label><br> <!-- Para a caixa  -->
+            <textarea id="mensagem" name="mensagem" rows="8" cols="25" ></textarea><br>
+   
+            <label for="data">Data de Nascimento:</label><!-- Para data -->
+            <input type="date" id="data" name="data"><br>
+            <label for="hora">Hora Preferencial para Estudo:</label><!-- Para hora-->
+            <input type="time" id="hora" name="hora"><br>
+     
+
+            <button type="submit">Enviar</button><!-- Para enviar -->
+            <button type="reset">Limpar</button><!-- Para limpar -->
+        </form>
+    </body>
+</html>
